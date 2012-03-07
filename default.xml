@@ -30,7 +30,7 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/sample" name="device/sample" />
+  <project path="device/sample" name="device_sample" remote="clusty" revision="master" />
   <!--<project path="device/samsung/crespo" name="device_samsung_crespo" remote="gummy" revision="master" />
   <project path="device/samsung/crespo4g" name="device_samsung_crespo4g" remote="gummy" revision="master" />-->
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="clust3r" revision="master" />
