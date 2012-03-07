@@ -3,13 +3,13 @@
 
 	<remote name="aosp" fetch="https://android.googlesource.com/" />
 	
-	<remote name="clusty" fetch="https://github.com/Clust3r/" />
+	<remote name="clust3r" fetch="https://github.com/Clust3r/" />
     
 	<remote name="gummy" fetch="git://github.com/teamgummy/" />
       	 
 	<remote name="cm" fetch="git://github.com/CyanogenMod/" />
 		
-	<remote name="clust3r" fetch="http://github.com/ClustyROM/" />
+	<remote name="clusty" fetch="http://github.com/ClustyROM/" />
 		
 	<remote name="kejar31" fetch="git://github.com/kejar31/" />
 
