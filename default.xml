@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="aosp"
-       	fetch="https://android.googlesource.com/" />
-    	 
-  <remote name="gummy"
-       	fetch="http://github.com/teamgummy/" />
+	<remote name="aosp" fetch="https://android.googlesource.com/" />
+	
+	<remote name="clusty" fetch="https://github.com/Clust3r/" />
+    
+	<remote name="gummy" fetch="git://github.com/teamgummy/" />
       	 
-<remote name="clusty"
-        fetch="http://github.com/ClustyROM/" />
+	<remote name="cm" fetch="git://github.com/CyanogenMod/" />
+		
+	<remote name="clust3r" fetch="http://github.com/ClustyROM/" />
+		
+	<remote name="kejar31" fetch="git://github.com/kejar31/" />
 
-   <remote name="cm"
-       	fetch="http://github.com/CyanogenMod/" />
-
-  <remote name="kejar31"
-        fetch="http://github.com/kejar31/" />
-
-  <default revision="refs/tags/android-4.0.3_r1"
-       	remote="aosp"
-       	sync-j="4" />
+	<default revision="refs/tags/android-4.0.3_r1" remote="aosp" sync-j="4" />
 
   <project path="build" name="android_build" revision="ics" remote="kejar31">
 	<copyfile src="core/root.mk" dest="Makefile" />
@@ -36,16 +31,13 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="device_samsung_crespo" remote="gummy" revision="master" />
-  <project path="device/samsung/crespo4g" name="device_samsung_crespo4g" remote="gummy" revision="master" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="gummy" revision="master" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="gummy" revision="master" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="gummy" revision="master" />
+  <!--<project path="device/samsung/crespo" name="device_samsung_crespo" remote="gummy" revision="master" />
+  <project path="device/samsung/crespo4g" name="device_samsung_crespo4g" remote="gummy" revision="master" />-->
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="clust3r" revision="ics" />
+  <!--<project path="device/samsung/toro" name="device_samsung_toro" remote="gummy" revision="master" />-->
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="clust3r" revision="master" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="gummy" revision="stock-4.0.3" />
   <project path="device/samsung/fascinatemtd" name="android_device_samsung_fascinatemtd" remote="gummy" revision="ics" />
-  <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="gummy" revision="ics" />
-  <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" remote="gummy" revision="ics" />
-  <project path="device/samsung/vibrantmtd" name="android_device_samsung_vibrantmtd" remote="gummy" revision="master" />
   <project path="device/moto/wingray/" name="device_moto_wingray" remote="gummy" revision="master" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -210,15 +202,15 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" remote="clusty" revision="master"  />
+  <!--<project path="packages/apps/Music" name="platform/packages/apps/Music" />-->
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="gummy" revision="master"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="clusty" revision="master" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gummy" revision="master" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -265,10 +257,9 @@
   <project path="system/su" name="system_su" remote="gummy" revision="master" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="ics" />
   <project path="packages/apps/FileManager" name="packages_apps_FileManager" remote="gummy" revision="master" />
-  <project path="packages/apps/ClustyyPapers" name="packages_apps_ClustyPapers" remote="clusty" revision="master" />
+  <project path="packages/apps/ClustyPapers" name="packages_apps_ClustyPapers" remote="clusty" revision="master" />
   <project path="packages/apps/LibertySettings" name="packages_apps_LibertySettings" remote="gummy" revision="master" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics" />
   <!-- <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="gummy" revision="ics" /> -->
 
 </manifest>
-
