@@ -296,6 +296,8 @@
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
   <project path="packages/apps/ClustyControl" name="packages_apps_ClustyROM" remote="clusty" revision="master" />
 <!--  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="gh" revision="ics" />-->
-
+<project path="device/lge/p990" name="AOKP/android_device_lge_p990" remote="gh" revision="ics" />
+<project path="device/lge/star-common" name="AOKP/android_device_lge_star-common" remote="gh" revision="ics" />
+<project path="vendor/lge" name="AOKP/vendor_lge" remote="gh" revision="ics" />
 </manifest>
 
