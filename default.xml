@@ -208,7 +208,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="gh" revision="master" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="master" />
-  <project path="frameworks/base" name="frameworks_base" remote="clusty" revision="4.0.3" />
+  <project path="frameworks/base" name="frameworks_base" remote="clust3r" revision="ics" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="gh" revision="ics" />
