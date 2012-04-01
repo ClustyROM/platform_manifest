@@ -319,8 +319,8 @@
   <project path="vendor/qcom/opensource/omx/mm-video" name="AOKP/android_vendor_qcom_opensource_omx_mm-video" remote="gh" revision="ics" />
   
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
-<!--  <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="ics" />-->
-<!--  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />-->
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
   <project path="packages/apps/ClustyControl" name="packages_apps_ClustyControl" remote="clusty" revision="ics" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="gh" revision="ics" />
   <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" remote="gh" revision="gb-release-7.2" />
