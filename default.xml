@@ -49,6 +49,7 @@
   <project path="device/htc/bravo" name="AOKP/device_htc_bravo" remote="gh" revision="ics" />
   <project path="device/htc/inc" name="AOKP/android_device_htc_inc" remote="gh" revision="ics" />
   <project path="device/htc/supersonic" name="AOKP/android_device_htc_supersonic" remote="gh" revision="ics" />
+  <project path="device/htc/msm8660-common" name="Cyanogenmod/android_device_htc_msm8660-common" remote="gh" revision="ics" />
   <project path="device/htc/pyramid" name="AOKP/android_device_htc_pyramid" remote="gh" revision="ics" />
   <project path="device/htc/vivow" name="AOKP/android_device_htc_vivow" remote="gh" revision="ics" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="gh" revision="gingerbread" />
